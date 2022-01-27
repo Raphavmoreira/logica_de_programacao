@@ -1,0 +1,18 @@
+programa //Anterior e Sucessor
+{
+
+	função inicio ()
+	{ inteiro a, ant, suc
+
+	   escreva ("Digite um número: ")
+	   leia (a)
+
+	   ant = a - 1
+	   suc = a + 1
+
+	   escreva ("\nO antecessor de ", a, "é ", ant)
+	   escreva ("\nO sucessor de ", a, "é ", suc)
+
+	}
+
+}

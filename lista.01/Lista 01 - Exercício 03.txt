@@ -1,0 +1,26 @@
+programa //Troca de valores
+{
+
+	função inicio ()
+	{ inteiro a, b, aub
+
+	   escreva ("Digite um número: ")
+	   leia (a)
+	   escreva ("X vale ", a)
+	   
+	   escreva ("Digite um número: ")
+	   leia (b)
+	   escreva ("Y vale ", b)
+
+	   //Troca de valores
+	   aub = b
+	   b = a
+	   a = aub
+
+	   escreva ("\nAplicando a troca de valores!)
+	   escreva ("\nX vale ", a)
+	   escreva ("\nY vale ", b)
+
+	}
+
+}

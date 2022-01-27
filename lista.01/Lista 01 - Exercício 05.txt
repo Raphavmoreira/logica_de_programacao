@@ -1,0 +1,30 @@
+programa //Cálculo de prestação em atraso
+{
+
+	função inicio ()
+	{ inteiro prest, tx, a, tempo, vf
+
+	   //Prestação
+	   escreva ("Digite o valor da prestação!")
+	   leia (prest)
+	   escreva("\nO valor da prestação é R$ ", prest, "\n")
+	   
+	   //Taxa
+	   escreva ("\nDigite a taxa de juros!")
+	   leia (tx)
+	   escreva ("\nA taxa de juros é de ", tx, "\n")
+	   
+	   //Tempo de atraso
+	   escreva ("\nDigite o tempo em atraso (em dias)!")
+	   leia (a)
+	   tempo = a
+	   escreva ("\nTempo em atraso de ", tempo, " dias", "\n")
+	   
+	   //Cálculo da prestação
+	   vf = prest + (prest*(tx/100)*tempo) 
+
+	   escreva ("\nO valor atualizado da prestação é de R$ ", vf)
+
+	}
+
+}

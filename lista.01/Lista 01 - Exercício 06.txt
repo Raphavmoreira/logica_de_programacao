@@ -1,0 +1,19 @@
+programa //Cálculo de idade pelo ano de nascimento
+{
+
+	função inicio ()
+	{ inteiro a, b, idade
+
+	   escreva ("Olá, digite o ano atual! ")
+	   leia (a) 
+	   
+	   escreva ("Agora, digite o ano do seu nascimento! ",)
+	   leia (b)
+	   
+	   idade = a - b
+	    
+	   escreva("\nJá que estamos em ", a, " sua idade é: ", idade, " anos!")
+
+	}
+
+}

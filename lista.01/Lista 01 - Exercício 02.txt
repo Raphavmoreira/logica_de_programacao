@@ -1,0 +1,16 @@
+programa //Operação quadrado
+{
+
+	função inicio ()
+	{ inteiro a, quad
+
+	   escreva ("Digite um número: ")
+	   leia (a)
+	   
+	   quad = a * a
+
+	   escreva ("\nO quadrado de ", a, "=", quad)
+
+	}
+
+}
